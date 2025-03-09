@@ -17,17 +17,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Kk14569\\FlarumAntiGmailAlias\\": "src/"
+      "kk14569\\FlarumAntiGmailAlias\\": "src/"
     }
   },
   "extra": {
     "flarum-extension": {
-      "title": "Anti Gmail Alias",
+      "title": "FoF Disposable Emails",
       "category": "feature",
       "icon": {
         "name": "fas fa-envelope",
         "backgroundColor": "#e74c3c",
         "color": "#fff"
       }
+    }
   }
 }
