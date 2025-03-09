@@ -1,6 +1,6 @@
 <?php
 
-namespace kk14569\FlarumAntiGmailAlias;
+namespace Kk14569\FlarumAntiGmailAlias;
 
 use Flarum\Extend;
 use Flarum\Foundation\ValidationException;
@@ -13,7 +13,7 @@ return [
     (new Extend\Event())
         ->listen(Saving::class, function (Saving $event) {
             $email = Arr::get($event->data, 'attributes.email');
-            if (!empty($email) && $this->isGmailAlias($email)) {
+            if (!empty($email) && isGmailAlias($email)) {
                 throw new ValidationException([
                     resolve('translator')->trans('kk14569-anti-gmail-alias.error.gmail_alias_message'),
                 ]);
