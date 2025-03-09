@@ -6,6 +6,10 @@
     "flarum"
   ],
   "license": "MIT",
+  "support": {
+    "issues": "https://github.com/kk14569/flarum-anti-gmail-alias/issues",
+    "source": "https://github.com/kk14569/flarum-anti-gmail-alias",
+  },
   "authors": [
     {
       "name": "14569",
@@ -22,7 +26,7 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "FoF Disposable Emails",
+      "title": "Anti Gmail Alias",
       "category": "feature",
       "icon": {
         "name": "fas fa-envelope",
